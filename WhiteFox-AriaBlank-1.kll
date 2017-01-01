@@ -1,0 +1,18 @@
+Name = "WhiteFox";
+Layout = "AriaBlank";
+Base = "AllBlank";
+Version = "0.2";
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = "0.3c";
+Date = "2016-05-30";
+Generator = "KIICONF 0.2";
+
+U"1" : CONS"BRIGHTNESSDECREMENT";
+U"2" : CONS"BRIGHTNESSINCREMENT";
+U"7" : CONS"REWIND";
+U"8" : CONS"PAUSEPLAY";
+U"9" : CONS"FASTFORWARD";
+U"0" : CONS"MUTE";
+U"MINUS" : CONS"VOLUMEDOWN";
+U"EQUAL" : CONS"VOLUMEUP";
+

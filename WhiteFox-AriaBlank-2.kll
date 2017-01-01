@@ -1,0 +1,13 @@
+Name = "WhiteFox";
+Layout = "AriaBlank";
+Base = "AllBlank";
+Version = "0.2";
+Author = "HaaTa (Jacob Alexander) 2015";
+KLL = "0.3c";
+Date = "2016-05-30";
+Generator = "KIICONF 0.2";
+
+U"1" : ledControl( 3, 15, 0 );
+U"2" : ledControl( 4, 15, 0 );
+U"3" : ledControl( 5, 0, 0 );
+
