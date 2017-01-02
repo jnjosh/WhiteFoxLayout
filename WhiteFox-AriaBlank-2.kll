@@ -7,7 +7,9 @@ KLL = "0.3c";
 Date = "2016-05-30";
 Generator = "KIICONF 0.2";
 
-U"1" : ledControl( 3, 15, 0 );
-U"2" : ledControl( 4, 15, 0 );
-U"3" : ledControl( 5, 0, 0 );
+U"ESC" : SYS"SLEEP";
+U"0" : ledControl( 5, 0, 0 );
+U"MINUS" : ledControl( 3, 15, 0 );
+U"EQUAL" : ledControl( 4, 15, 0 );
+U"CTRL" : flashMode();
 

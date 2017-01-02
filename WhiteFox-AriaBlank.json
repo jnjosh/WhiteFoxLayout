@@ -20,6 +20,10 @@
                 "0": {
                     "key": "ESC",
                     "label": "ESC"
+                },
+                "2": {
+                    "key": "SYS:SLEEP",
+                    "label": "SLEEP"
                 }
             }
         },
@@ -37,10 +41,6 @@
                 "1": {
                     "key": "CONS:BRIGHTNESSDECREMENT",
                     "label": "SCRN-"
-                },
-                "2": {
-                    "key": "#:ledControl( 3, 15, 0 )",
-                    "label": "LED-"
                 }
             }
         },
@@ -58,10 +58,6 @@
                 "1": {
                     "key": "CONS:BRIGHTNESSINCREMENT",
                     "label": "SCRN+"
-                },
-                "2": {
-                    "key": "#:ledControl( 4, 15, 0 )",
-                    "label": "LED+"
                 }
             }
         },
@@ -75,10 +71,6 @@
                 "0": {
                     "key": "3",
                     "label": "3"
-                },
-                "2": {
-                    "key": "#:ledControl( 5, 0, 0 )",
-                    "label": "LED OFF"
                 }
             }
         },
@@ -186,6 +178,10 @@
                 "1": {
                     "key": "CONS:MUTE",
                     "label": "MUTE"
+                },
+                "2": {
+                    "key": "#:ledControl( 5, 0, 0 )",
+                    "label": "LED OFF"
                 }
             }
         },
@@ -203,6 +199,10 @@
                 "1": {
                     "key": "CONS:VOLUMEDOWN",
                     "label": "VOL-"
+                },
+                "2": {
+                    "key": "#:ledControl( 3, 15, 0 )",
+                    "label": "LED-"
                 }
             }
         },
@@ -220,6 +220,10 @@
                 "1": {
                     "key": "CONS:VOLUMEUP",
                     "label": "VOL+"
+                },
+                "2": {
+                    "key": "#:ledControl( 4, 15, 0 )",
+                    "label": "LED+"
                 }
             }
         },
@@ -818,6 +822,10 @@
                 "0": {
                     "key": "CTRL",
                     "label": "LCTRL"
+                },
+                "2": {
+                    "key": "#:flashMode()",
+                    "label": "FLASH"
                 }
             }
         },
@@ -868,8 +876,8 @@
             "h": 4,
             "layers": {
                 "0": {
-                    "key": "RALT",
-                    "label": "RALT"
+                    "key": "RGUI",
+                    "label": "RGUI"
                 }
             }
         },

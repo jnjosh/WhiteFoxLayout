@@ -9,3 +9,7 @@ Configured using [input club's configurator](https://input.club/configurator-whi
 - `brew install dfu-util`
 - Press the flash button on the back of the keyboard.
 - `$ dfu-util -D kiibohd.dfu.bin` 
+
+## Current Layout
+
+![](layout.png)
